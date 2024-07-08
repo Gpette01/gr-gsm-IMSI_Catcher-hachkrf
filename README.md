@@ -36,7 +36,6 @@ You can open the gnuradio companion by typing `gnuradio-companion` in the termin
   Found in my repository I included the build.py file that fixed the not iterable error, replace the current `device.py` found in `/usr/local/lib/python3.12/dist-packages/gnuradio/gsm/` with my version
   
 4. **Install IMSI-Catcher:**
-  
   Install [IMSI-catcher](https://github.com/Oros42/IMSI-catcher)
   
 5. **UI edit(Editing the grgsm_livemon):**

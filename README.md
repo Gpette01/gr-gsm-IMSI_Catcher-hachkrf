@@ -29,11 +29,11 @@ You can open the gnuradio companion by typing `gnuradio-companion` in the termin
   
 2. **Module install:**
   
-  By cloning the gr-gsm original vesion it was not usable with my current GNU radio version so i found this reposiroty [gr-gsm](https://github.com/bkerler/gr-gsm/tree/maint-3.10_with_multiarfcn) but when installed from source code livemon was not available to use, so by installing it with sudo apt-get install gr-gsm i was able to get all the features nescessary but when running gr-gsm_livemon i got an error for the device.py file.
+  By cloning the gr-gsm original vesion it was not usable with my current GNU radio version so i found this reposiroty [gr-gsm](https://github.com/bkerler/gr-gsm/tree/maint-3.10_with_multiarfcn) but when installed from source code livemon was not available to use, so by installing it with sudo apt-get install gr-gsm i was able to get all the features nescessary but when running gr-gsm_livemon i got an error for the `device.py` file.
   
-3. **Fix build.py:**
+3. **Fix device.py:**
   
-  Found in my repository I included the build.py file that fixed the not iterable error, replace the current `device.py` found in `/usr/local/lib/python3.12/dist-packages/gnuradio/gsm/` with my version
+  Found in my repository I included the `device.py` file that fixed the not iterable error, replace the current `device.py` found in `/usr/local/lib/python3.12/dist-packages/gnuradio/gsm/` with my version
   
 4. **Install IMSI-Catcher:**
   Install [IMSI-catcher](https://github.com/Oros42/IMSI-catcher)

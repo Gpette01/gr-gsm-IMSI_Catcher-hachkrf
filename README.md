@@ -39,7 +39,8 @@ You can open the gnuradio companion by typing `gnuradio-companion` in the termin
   
   Install [IMSI-catcher](https://github.com/Oros42/IMSI-catcher)
   
-5. **UI edit(Editing the grgsm_livemon):** By retreiving the grc found [grgsm_livemon.grc](https://github.com/ptrkrysik/gr-gsm/blob/master/apps/grgsm_livemon.grc) you can open it in the `gnuradio-companion` and run it, upon running it it will create a .py you can run independently of the gnuradio-companion. If you do not want a UI you can use the grc found in this repository by downloading it and following the same procedure
+5. **UI edit(Editing the grgsm_livemon):**
+   By retreiving the grc found [grgsm_livemon.grc](https://github.com/ptrkrysik/gr-gsm/blob/master/apps/grgsm_livemon.grc) you can open it in the `gnuradio-companion` and run it, upon running it it will create a .py you can run independently of the gnuradio-companion. If you do not want a UI you can use the grc found in this repository by downloading it and following the same procedure
     
 
 ## Usage

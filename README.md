@@ -29,7 +29,7 @@ You can open the gnuradio companion by typing `gnuradio-companion` in the termin
   
 2. **Module install:**
   
-  By cloning the gr-gsm original vesion it was not usable with my current GNU radio version so i found this reposiroty [gr-gsm](https://github.com/bkerler/gr-gsm/tree/maint-3.10_with_multiarfcn) but when installed from source code livemon was not available to use, so by installing it with sudo apt-get install gr-gsm i was able to get all the features nescessary but when running gr-gsm_livemon i got an error for the `device.py` file.
+  By cloning the gr-gsm original vesion it was not usable with my current GNU radio version so I found this reposiroty [gr-gsm](https://github.com/bkerler/gr-gsm/tree/maint-3.10_with_multiarfcn) but when installed from source code livemon was not available to use, so by installing it with `sudo apt-get install gr-gsm` I was able to get all the features nescessary but when running gr-gsm_livemon I got an error for the `device.py` file.
   
 3. **Fix device.py:**
   

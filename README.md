@@ -16,6 +16,7 @@ This reposiroty is a guide on how to use a hackrf to find IMSI numbers
 - [GNU Radio]([InstallingGR - GNU Radio](https://wiki.gnuradio.org/index.php/InstallingGR)) Using the version 3.11
 - HackRF
 - [Osmocom Module]([GrOsmoSDR - gr-osmosdr - Open Source Mobile Communications](https://osmocom.org/projects/gr-osmosdr/wiki))
+  **IMPORTANT:** When installing osmosdr in the command cmake ../ if you want to use hackrf do: cmake -DENABLE_HACKRF=ON .. && \
 
 The idea is that gr-gsm will retreive the data and IMSI-catcher by using the gr-gsm will show the IMSI number, country etc.
 

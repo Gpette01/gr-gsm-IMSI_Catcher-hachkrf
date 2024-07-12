@@ -20,7 +20,7 @@ This reposiroty is a guide on how to use a hackrf to find IMSI numbers
 
 The idea is that gr-gsm will retreive the data and IMSI-catcher by using the gr-gsm will show the IMSI number, country etc.
 
-## Gnuradio Companion
+## Gnuradio Companion
 
 You can open the gnuradio companion by typing `gnuradio-companion` in the terminal assuming you installed gnuradio correctly
 
